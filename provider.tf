@@ -1,3 +1,3 @@
 provider "aws" {
-  region = "cn-northwest-1"
+  region = var.region
 }

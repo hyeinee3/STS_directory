@@ -34,3 +34,9 @@ variable "assign_ip" {
   type = bool
   default = true
 }
+
+variable "additional_tags" {
+  default = {}
+  description = "Additional Resource Tags"
+  type = map(string)
+}
